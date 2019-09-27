@@ -3,6 +3,12 @@ services:
 
   db:
     image: postgres:10.4
+    container_name: postgress-service
+    volumes:
+      - /var/db/data/postgresql:/var/lib/postgresql
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
     ports:
       - "5432:5432"
 
