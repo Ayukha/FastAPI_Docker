@@ -1,3 +1,3 @@
 # FastAPI_Docker
 
-Contains code written in FastAPI (python backend)
+Contains code written in FastAPI (Bython based backend)
